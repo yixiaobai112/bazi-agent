@@ -413,12 +413,6 @@ pip install -r requirements.txt
 python run.py
 ```
 
-### 构建分发包
-
-```bash
-python setup.py sdist bdist_wheel
-```
-
 ## 📄 许可证
 
 MIT License
@@ -431,13 +425,6 @@ MIT License
 
 **作者**：易晓白（花名）  
 **项目**：BaziAgent - 八字命理分析引擎
-
-## 📧 联系方式
-
-如有问题或建议，可通过以下方式联系：
-
-1. **微信(WeChat)**：yixiaobai-AI
-2. **邮箱**：799278912@qq.com
 
 ## 💼 商业对接
 
@@ -459,6 +446,7 @@ MIT License
 2. **邮箱**：799278912@qq.com（主题请注明"BaziAgent商业合作"）
 
 我们会在收到您的咨询后尽快回复，并安排专人对接您的需求。 
+
 
 
 
