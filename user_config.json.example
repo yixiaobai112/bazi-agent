@@ -1,0 +1,17 @@
+{
+  "name": "张三",
+  "gender": "男",
+  "birth": {
+    "year": 1990,
+    "month": 5,
+    "day": 15,
+    "hour": 14,
+    "minute": 30
+  },
+  "location": {
+    "province": "北京市",
+    "city": "北京市",
+    "use_true_solar_time": true
+  }
+}
+

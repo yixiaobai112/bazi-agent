@@ -1,0 +1,41 @@
+{
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-20250514",
+    "api_key": "your-api-key-here",
+    "base_url": "https://api.anthropic.com",
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "timeout": 30
+  },
+  "analysis": {
+    "dimensions": [
+      "wuxing",
+      "shishen",
+      "geju",
+      "personality",
+      "career",
+      "wealth",
+      "marriage",
+      "health",
+      "interpersonal",
+      "dayun",
+      "shensha"
+    ],
+    "include_llm_interpretation": true,
+    "llm_interpretation_level": "detailed"
+  },
+  "output": {
+    "json": {
+      "enabled": true,
+      "filepath": "./output/result.json",
+      "pretty": true,
+      "include_raw_data": true
+    },
+    "logging": {
+      "level": "INFO",
+      "filepath": "./logs/bazi_agent.log"
+    }
+  }
+}
+
